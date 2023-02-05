@@ -255,16 +255,21 @@ function findArea( length, width ) {
 const singleNumber = findArea(10, 5);
 // console.log(singleNumber)  
 
-function countZeros ( binary_num ) {
-  let towZero = 0;
-  for(i=0; i<binary_num; i++){
-    const binary = binary_num[i]
-    if(binary===0){
-      towZero += binary
+// Count the number of all zero
+function countZeros(binary_num) {
+  let count = 0;
+  for (let i = 0; i < binary_num.length; i++) {
+    if (binary_num[i] === '0') {
+      count++;
     }
   }
-  return towZero
+  return count;
 }
-const binary = "10101"
-const binaryNumber = countZeros(binary)
-console.log(binaryNumber)
+const str = "0120300";
+console.log(countZeros(str))
+
+// হ্যালো ইউনিভার্স
+function helloUniverse(){
+  let hello = "Hello Universe!! Welcome me to JS World!!!"
+  return hello
+}
