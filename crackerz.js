@@ -268,6 +268,19 @@ function countZeros(binary_num) {
 const str = "0120300";
 console.log(countZeros(str))
 
+const reverseMaker = (word)=> {
+  let revers = ""
+  for(i=word.length -1; i>=0; i--){
+    const reversWord = word[i]
+    revers+=reversWord
+  }
+  return revers
+};
+const isWord = "hello";
+const reversIsWord = reverseMaker(isWord)
+console.log(reversIsWord)
+
+
 // হ্যালো ইউনিভার্স
 function helloUniverse(){
   let hello = "Hello Universe!! Welcome me to JS World!!!"
