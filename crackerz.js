@@ -266,8 +266,9 @@ function countZeros(binary_num) {
   return count;
 }
 const str = "0120300";
-console.log(countZeros(str))
+// console.log(countZeros(str))
 
+// Reverse The String
 const reverseMaker = (word)=> {
   let revers = ""
   for(i=word.length -1; i>=0; i--){
