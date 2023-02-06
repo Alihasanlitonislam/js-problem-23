@@ -287,3 +287,16 @@ function helloUniverse(){
   let hello = "Hello Universe!! Welcome me to JS World!!!"
   return hello
 }
+// for(i=65; i<=90; i++){
+//   console.log(String.fromCharCode(i))
+// }
+// for(i=97; i<=122; i++){
+//   console.log(String.fromCharCode(i))
+// }
+function alphabets (alphabets){
+  for(i=0; i<alphabets; i++){
+    console.log(alphabets[i])
+  }
+}
+const stringAlp = String.fromCharCode;
+const srtingLetter = alphabets(statusbar)
